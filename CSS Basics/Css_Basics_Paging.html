@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Css Basics</title>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="keywords" content="Html, Basics, Keywords, Template, Cheat, Sheet">
+	<meta name="description" content="Basic Html Tags and Attributes in order to Pass an Awful Exam">
+	<meta http-equiv="refresh" content="300">
+
+	<link rel="stylesheet" href="Css_Basics.css">
+	<link rel="stylesheet" href="Css_Basics_Paging.css">
+	<link rel="stylesheet" href="Horizontal_Navbar.css">
+</head>
+<body>
+	<nav>
+		<ul>
+			<li class="dropdown">
+				<a href="Css_Basics.html" class="dropbtn active">Basic CSS</a>
+				<div class="dropdown-content">
+					<a href="Css_Basics_Positioning.html">Positioning</a>
+					<a href="Css_Basics_Typo.html">Typography</a>
+					<a href="Css_Basics_Media.html">Media Screen</a>
+					<a href="Css_Basics_Fonts.html">Web Fonts</a>
+					<a href="Css_Basics_Background.html">Background Image</a>
+					<a href="Css_Basics_Paging.html" class="active">Paging</a>
+					<a href="Css_Basics._Transition.html">Transition</a>
+					<a href="Css_Basics_Animation.html">Animation</a>
+				</div>
+			</li>
+			<li><a href="Vertical_Navbar.html" class="left">Ver. Navbar</a></li>
+			<li><a href="Horizontal_Navbar.html" class="left">Hor. Navbar</a></li>
+			<li><a href="https://www.w3schools.com/cssref/css_selectors.php" target="_blank" class="right">Selectors</a></li>
+		</ul>
+	</nav>
+
+	<div id="inner">
+		<p>This is the inner with a padding of 50px</p>
+		<div id="paddingBorder">
+			<aside>
+				<p>We're in an &#60;aside&#62; element </p>
+				<p>
+					aside {<br>
+					&nbsp; clear: both;<br>
+					&nbsp; border: 3px dotted greenyellow;<br>
+					&nbsp; width: 250px;<br>
+					&nbsp; position: relative;<br>
+					&nbsp; float: left;<br>
+					&nbsp; z-index: 90;<br>
+					&nbsp; padding: 35px;<br>
+					}
+				</p>
+				<footer>
+					<p>This is a footer for the Aside</p>
+				</footer>
+			</aside>
+			<main>
+				<h1 class="minor">Paging</h1>
+				<div class="orangeP">
+					<h2>&#60;div id="paddingBorder"&#62;</h2>
+					<p>
+						#paddingBorder {<br>
+							&nbsp;&nbsp; border: 3px dotted orange;<br>
+							&nbsp;&nbsp; margin: 0;<br>
+						}<br>
+					</p>
+					<p>Useless but shows what the padding of the inner does.</p>
+				</div>
+				<div class="bluevioletP">
+					<h2>&#60;div id="main"&#62;</h2>
+					<p>
+						main {<br>
+							&nbsp;&nbsp; margin: 0 0 0 326px;<br>
+							&nbsp;&nbsp; padding: 0 50px;<br>
+						}<br>
+					</p>
+				</div>
+				<p class="major">
+					<span class="orangeP">&#60;div id="paddingBorder"&#62;</span> = <span class="bluevioletP">&#60;div id="main"&#62;</span> + <span class="greenyellowP">&#60;aside&#62;</span> + <span class="orangeP">&#60;footer&#62;</span>
+				</p>
+
+				<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+			
+				<footer>
+					<p>This is a footer for the Main</p>
+					<p>This is a footer for the Main</p>
+					<p>This is a footer for the Main</p>
+				</footer>
+			</main>
+			<footer>
+				<p>This is a footer for the paddingBorder</p>
+				<p>This is a footer for the paddingBorder</p>
+				<p>This is a footer for the paddingBorder</p>
+			</footer>
+		</div>
+		<footer>
+			<p>This is a footer for the Inner</p>
+			<p>This is a footer for the Inner</p>
+			<p>This is a footer for the Inner</p>
+		</footer>
+	</div>
+</body>
+</html>

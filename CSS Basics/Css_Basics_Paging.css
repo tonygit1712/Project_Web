@@ -1,0 +1,56 @@
+body {
+    background-color: #6e6e6e;
+}
+
+#inner {
+    border: 3px dotted red;
+    width: 75%;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    background-color: white;
+    padding: 50px;
+}
+    #inner > p {
+        color: red;
+        text-align: center;
+        font-size: 2em;
+        padding: 0;
+        margin: 0;
+    }
+
+#paddingBorder {
+    border: 3px dotted orange;
+    margin: 0;
+}
+    .orangeP {
+        color: orange;
+    }
+
+aside {
+	clear: both;
+    border: 3px dotted greenyellow;
+	width: 250px;
+    position: relative;
+    float: left;
+    padding: 35px;
+}
+    aside p {
+        color: greenyellow;
+        font-size: 1.15em;
+    }
+    aside footer p {
+        color : black;
+    }
+    .greenyellowP {
+        color: greenyellow;
+    }
+
+main {
+    border: 3px dotted blueviolet;
+	margin: 0 0 0 326px;
+	padding: 0 50px;
+}
+    .bluevioletP {
+        color: blueviolet;
+    }

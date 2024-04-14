@@ -1,0 +1,110 @@
+/* Typography divs thoughout this page*/
+div.typo {
+    display: block;
+    border: 1px solid black;
+    margin: 15px 0 15px 50px;
+    padding: 5px;
+    width: 500px;
+}
+p.repeat {
+    font-style: italic;
+    text-decoration: 1px line-through;
+}
+
+/* Text Color */
+#textColor1 {
+    color: black;
+}
+#textColor2 {
+    background-color: #6e6e6e;
+    color: #ffff00;
+}
+
+/* Text Alignment */
+#textAlign1 {
+    text-align: left;
+}
+#textAlign2 {
+    text-align: center;
+}
+#textAlign3 {
+    text-align: right;
+}
+#textAlign4 {
+    text-align: justify;
+}
+
+#textAlignLast1 {
+    text-align-last: center;
+}
+#textAlignLast2 {
+    text-align-last: right;
+}
+#textAlignLast3 {
+    text-align-last: justify;
+}
+
+#textDirection1 p:last-child {
+    direction: ltr;
+    unicode-bidi: bidi-override;
+}
+#textDirection2 p:last-child {
+    direction: rtl;
+    unicode-bidi: bidi-override;
+}
+
+.imgVerticalAlign {
+    width: 10px;
+    height: 10px;
+}
+#verticalAlign1 img {
+    vertical-align: baseline;
+}
+#verticalAlign2 img {
+    vertical-align: text-top;
+}
+#verticalAlign3 img {
+    vertical-align: text-bottom;
+}
+
+/* Text Decoration */
+#textDecoration1 {
+    text-decoration: underline;
+}
+#textDecoration2 {
+    text-decoration: overline;
+}
+#textDecoration3 {
+    text-decoration: underline overline;
+}
+#textDecoration4 {
+    text-decoration: line-through;
+}
+#textDecoration5 {
+    text-decoration-line: underline;
+    text-decoration-color: #ffff00;
+    text-decoration-style: wavy;
+    text-decoration-thickness: 2px;
+}
+#textDecoration6 {
+    text-decoration: underline #ffff00 wavy 2px; 
+}
+
+/* Text Transform */
+#textTransform1 {
+    text-transform: none;
+}
+#textTransform2 {
+    text-transform: lowercase;
+}
+#textTransform3 {
+    text-transform: uppercase;
+}
+#textTransform4 {
+    text-transform: capitalize;
+}
+
+/* Text Shadow */
+#textShadow {
+    text-shadow: 1px 1px 2px black, 0 0 25px orange, 0 0 5px orangered;
+}

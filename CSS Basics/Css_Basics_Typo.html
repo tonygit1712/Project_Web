@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Css Basics</title>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="keywords" content="Html, Basics, Keywords, Template, Cheat, Sheet">
+	<meta name="description" content="Basic Html Tags and Attributes in order to Pass an Awful Exam">
+	<meta http-equiv="refresh" content="300">
+
+	<link rel="stylesheet" href="Css_Basics.css">
+	<link rel="stylesheet" href="Css_Basics_Typo.css">
+	<link rel="stylesheet" href="Horizontal_Navbar.css">
+</head>
+<body>
+	<nav>
+		<ul>
+			<li class="dropdown">
+				<a href="Css_Basics.html" class="dropbtn active">Basic CSS</a>
+				<div class="dropdown-content">
+					<a href="Css_Basics_Positioning.html">Positioning</a>
+					<a href="Css_Basics_Typo.html" class="active">Typography</a>
+					<a href="Css_Basics_Media.html">Media Screen</a>
+					<a href="Css_Basics_Fonts.html">Web Fonts</a>
+					<a href="Css_Basics_Background.html">Background Image</a>
+					<a href="Css_Basics_Paging.html">Paging</a>
+					<a href="Css_Basics._Transition.html">Transition</a>
+					<a href="Css_Basics_Animation.html">Animation</a>
+				</div>
+			</li>
+			<li><a href="Vertical_Navbar.html" class="left">Ver. Navbar</a></li>
+			<li><a href="Horizontal_Navbar.html" class="left">Hor. Navbar</a></li>
+			<li><a href="https://www.w3schools.com/cssref/css_selectors.php" target="_blank" class="right">Selectors</a></li>
+		</ul>
+	</nav>
+
+	<h1 class="minor">Typography</h1>
+
+		<h2 class="minor">Text Color</h2>
+			<div class="typo" id="textColor1">
+				<p>#textColor1 {
+					color: black;
+				}</p>
+			</div>
+			<div class="typo" id="textColor2">
+				<p>#textColor2 {
+					background-color: #6e6e6e;
+					color: #ffff00;
+				}</p>
+			</div>
+
+		<h2 class="minor">Text Alignment</h2>
+			<h3 class="minor">Text Align</h3>
+				<div class="typo" id="textAlign1">
+					<p>#textAlign1 {
+						text-align: left;
+					}</p>
+				</div>
+				<div class="typo" id="textAlign2">
+					<p>#textAlign2 {
+						text-align: center;
+					}</p>
+				</div>
+				<div class="typo" id="textAlign3">
+					<p>#textAlign3 {
+						text-align: right;
+					}</p>
+				</div>
+				<div class="typo" id="textAlign4">
+					<p>#textAlign4 {
+						text-align: justify;
+					}</p>
+					<p class="repeat">This is a repeatable text that's supposed to fill it's div. This is a repeatable text that's supposed to fill it's div. This is a repeatable text that's supposed to fill it's div. This is a repeatable text that's supposed to fill it's div. </p>
+				</div>
+			<h3 class="minor">Text Align Last</h3>
+				<div class="typo" id="textAlignLast1">
+					<p>#textAlign1 {
+						text-align-last: center;
+					}</p>
+					<p class="repeat">This is a repeatable text that's supposed to fill it's div. This is a repeatable text that's supposed to fill it's div. This is a repeatable text that's supposed to fill it's div. This is a repeatable text that's supposed to fill it's div. </p>
+				</div>
+				<div class="typo" id="textAlignLast2">
+					<p>#textAlign2 {
+						text-align-last: right;
+					}</p>
+					<p class="repeat">This is a repeatable text that's supposed to fill it's div. This is a repeatable text that's supposed to fill it's div. This is a repeatable text that's supposed to fill it's div. This is a repeatable text that's supposed to fill it's div. </p>
+				</div>
+				<div class="typo" id="textAlignLast3">
+					<p>#textAlign3 {
+						text-align-last: justify;
+					}</p>
+					<p class="repeat">This is a repeatable text that's supposed to fill it's div. This is a repeatable text that's supposed to fill it's div. This is a repeatable text that's supposed to fill it's div. This is a repeatable text that's supposed to fill it's div. </p>
+				</div>
+			<h3 class="minor">Text Direction</h3>
+				<div class="typo" id="textDirection1">
+					<p>#textDirection1 p:last-child {
+							direction: ltr;
+							unicode-bidi: bidi-override;
+						}</p>
+					<p>This is a paragraph.</p>
+				</div>
+				<div class="typo" id="textDirection2">
+					<p>#textDirection2 p:last-child {
+							direction: rtl;
+							unicode-bidi: bidi-override;
+						}</p>
+					<p>This is a paragraph.</p>
+				</div>
+			<h3 class="minor">Vertical Align</h3>
+				<div class="typo" id="verticalAlign1">
+					<p>#verticalAlign1 img {
+						vertical-align: baseline;
+					}</p>
+					<p>This is a paragraph and that: <img src="smallSquare.png" alt="" class="imgVerticalAlign"> is an image.</p>
+				</div>
+				<div class="typo" id="verticalAlign2">
+					<p>#verticalAlign2 img {
+						vertical-align: text-top;
+					}</p>
+					<p>This is a paragraph and that: <img src="smallSquare.png" alt="" class="imgVerticalAlign"> is an image.</p>
+				</div>
+				<div class="typo" id="verticalAlign3">
+					<p>#verticalAlign3 img {
+							vertical-align: text-bottom;
+						}</p>
+					<p>This is a paragraph and that: <img src="smallSquare.png" alt="" class="imgVerticalAlign"> is an image.</p>
+				</div>
+
+		<h2 class="minor">Text Decoration</h2>
+			<div class="typo" id="textDecoration1">
+				<p>#textDecoration1 {
+					text-decoration: underline;
+				}</p>
+			</div>
+			<div class="typo" id="textDecoration2">
+				<p>#textDecoration2 {
+					text-decoration: overline;
+				}</p>
+			</div>
+			<div class="typo" id="textDecoration3">
+				<p>#textDecoration3 {
+					text-decoration: underline overline;
+				}</p>
+			</div>
+			<div class="typo" id="textDecoration4">
+				<p>#textDecoration4 {
+						text-decoration: line-through;
+					}</p>
+			</div>
+			<div class="typo" id="textDecoration5">
+				<p>#textDecoration5 {<br>
+						text-decoration-line: underline;<br>
+						text-decoration-color: #ffff00;<br>
+						text-decoration-style: wavy;<br>
+						text-decoration-thickness: 2px;<br>
+					}</p>
+			</div>
+			<div class="typo" id="textDecoration6">
+				<p>#textDecoration6 {
+					text-decoration: underline #ffff00 wavy 2px; 
+				}</p>
+			</div>
+
+		<h2 class="minor">Text Transformation</h2>
+			<div class="typo" id="textTransform1">
+				<p>#textTransform1 {
+					text-transform: none;
+				}</p>
+				<p>This is a paragraph.</p>
+			</div>
+			<div class="typo" id="textTransform2">
+				<p>#textTransform2 {
+					text-transform: lowercase;
+				}</p>
+				<p>This is a paragraph.</p>
+			</div>
+			<div class="typo" id="textTransform3">
+				<p>#textTransform3 {
+					text-transform: uppercase;
+				}</p>
+				<p>This is a paragraph.</p>
+			</div>
+			<div class="typo" id="textTransform4">
+				<p>#textTransform4 {
+					text-transform: capitalize;
+				}</p>
+				<p>This is a paragraph.</p>
+			</div>
+
+		<h2 class="minor">Text Shadow</h2>
+			<div class="typo" id="textShadow">
+				<p>#textShadow {
+					text-shadow: 1px 1px 2px black, 0 0 25px orange, 0 0 5px orangered;
+				}</p>
+			</div>
+
+	<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+	<footer>
+		<p>Waow</p>
+		<p>This is a footer !</p>
+		<p>Waow</p>
+	</footer>
+</body>
+</html>

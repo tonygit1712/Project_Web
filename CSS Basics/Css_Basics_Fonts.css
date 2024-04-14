@@ -1,0 +1,55 @@
+/* Typography divs thoughout this page*/
+div.font {
+    display: block;
+    border: 1px solid black;
+    margin: 15px 0 15px 50px;
+    padding: 5px;
+    width: 500px;
+}
+p.repeat {
+    font-style: italic;
+    text-decoration: 1px line-through;
+}
+
+/* Font Basics */
+#fontBasics1 {
+    font-family: "Times New Roman", Times, serif;
+}
+#fontBasics2 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Font Style */
+#fontStyle1 {
+    font-style: italic;
+}
+#fontStyle2 {
+    font-weight: bold;
+}
+#fontStyle3 {
+    font-variant: small-caps;
+}
+
+/* Font Size */
+#fontSize1 {
+    font-size: 1em;
+}
+#fontSize2 {
+    font-size: 16px;
+}
+#fontSize3 {
+    font-size: 1vw;
+}
+
+/* Font Shorthand */
+#fontShort1 {
+    font-style: italic;
+    font-variant: small-caps;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 30px;
+    font-family: Georgia, serif;
+}
+#fontShort2 {
+    font: italic small-caps bold 16px/30px Georgia, serif;
+}
